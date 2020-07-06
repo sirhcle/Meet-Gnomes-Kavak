@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302ED9A2442BC4BBF20E26FF /* Pods_Meet_Gnomes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931496A135957D97AE764310 /* Pods_Meet_Gnomes.framework */; };
+		B090870124B2CFB600B55319 /* GnomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090870024B2CFB600B55319 /* GnomeDetailsViewController.swift */; };
+		B0984AB924B263B700B66B67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0984AB824B263B700B66B67 /* AppDelegate.swift */; };
+		B0984ABB24B263B700B66B67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0984ABA24B263B700B66B67 /* SceneDelegate.swift */; };
+		B0984ABD24B263B700B66B67 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0984ABC24B263B700B66B67 /* HomeViewController.swift */; };
+		B0984AC024B263B700B66B67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0984ABE24B263B700B66B67 /* Main.storyboard */; };
+		B0984AC224B263B800B66B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0984AC124B263B800B66B67 /* Assets.xcassets */; };
+		B0984AC524B263B800B66B67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0984AC324B263B800B66B67 /* LaunchScreen.storyboard */; };
+		B0984AD224B2644600B66B67 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0984AD124B2644600B66B67 /* HomeModel.swift */; };
+		B0984AD424B2648F00B66B67 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0984AD324B2648F00B66B67 /* HomeViewModel.swift */; };
+		B0984AD924B2A7AB00B66B67 /* CellViewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0984AD824B2A7AB00B66B67 /* CellViewHome.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F6D8D82C4EDC3AD78FE0D92 /* Pods-Meet Gnomes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meet Gnomes.release.xcconfig"; path = "Target Support Files/Pods-Meet Gnomes/Pods-Meet Gnomes.release.xcconfig"; sourceTree = "<group>"; };
+		931496A135957D97AE764310 /* Pods_Meet_Gnomes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meet_Gnomes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B090870024B2CFB600B55319 /* GnomeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeDetailsViewController.swift; sourceTree = "<group>"; };
+		B0984AB524B263B700B66B67 /* Meet Gnomes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meet Gnomes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0984AB824B263B700B66B67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0984ABA24B263B700B66B67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B0984ABC24B263B700B66B67 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B0984ABF24B263B700B66B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0984AC124B263B800B66B67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0984AC424B263B800B66B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0984AC624B263B800B66B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0984AD124B2644600B66B67 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		B0984AD324B2648F00B66B67 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B0984AD824B2A7AB00B66B67 /* CellViewHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewHome.swift; sourceTree = "<group>"; };
+		BF9B4BD3AE06FDE8CE9D03D2 /* Pods-Meet Gnomes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meet Gnomes.debug.xcconfig"; path = "Target Support Files/Pods-Meet Gnomes/Pods-Meet Gnomes.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0984AB224B263B700B66B67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302ED9A2442BC4BBF20E26FF /* Pods_Meet_Gnomes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03110B410DECA9DC85C3B96F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				931496A135957D97AE764310 /* Pods_Meet_Gnomes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		162A390FFBD1AD747C2CBD79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF9B4BD3AE06FDE8CE9D03D2 /* Pods-Meet Gnomes.debug.xcconfig */,
+				5F6D8D82C4EDC3AD78FE0D92 /* Pods-Meet Gnomes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B0984AAC24B263B700B66B67 = {
+			isa = PBXGroup;
+			children = (
+				B0984AB724B263B700B66B67 /* Meet Gnomes */,
+				B0984AB624B263B700B66B67 /* Products */,
+				162A390FFBD1AD747C2CBD79 /* Pods */,
+				03110B410DECA9DC85C3B96F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0984AB624B263B700B66B67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0984AB524B263B700B66B67 /* Meet Gnomes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0984AB724B263B700B66B67 /* Meet Gnomes */ = {
+			isa = PBXGroup;
+			children = (
+				B0984ACC24B263BE00B66B67 /* Home */,
+				B0984ACD24B263CB00B66B67 /* GnomesDetails */,
+				B0984AB824B263B700B66B67 /* AppDelegate.swift */,
+				B0984ABA24B263B700B66B67 /* SceneDelegate.swift */,
+				B0984ABE24B263B700B66B67 /* Main.storyboard */,
+				B0984AC124B263B800B66B67 /* Assets.xcassets */,
+				B0984AC324B263B800B66B67 /* LaunchScreen.storyboard */,
+				B0984AC624B263B800B66B67 /* Info.plist */,
+			);
+			path = "Meet Gnomes";
+			sourceTree = "<group>";
+		};
+		B0984ACC24B263BE00B66B67 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B0984AD024B2642800B66B67 /* Model */,
+				B0984ACF24B2642600B66B67 /* View */,
+				B0984ACE24B2642300B66B67 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B0984ACD24B263CB00B66B67 /* GnomesDetails */ = {
+			isa = PBXGroup;
+			children = (
+				B090870024B2CFB600B55319 /* GnomeDetailsViewController.swift */,
+			);
+			path = GnomesDetails;
+			sourceTree = "<group>";
+		};
+		B0984ACE24B2642300B66B67 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B0984AD324B2648F00B66B67 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B0984ACF24B2642600B66B67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0984AD524B2A75C00B66B67 /* cell */,
+				B0984ABC24B263B700B66B67 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0984AD024B2642800B66B67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0984AD124B2644600B66B67 /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0984AD524B2A75C00B66B67 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				B0984AD824B2A7AB00B66B67 /* CellViewHome.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0984AB424B263B700B66B67 /* Meet Gnomes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0984AC924B263B800B66B67 /* Build configuration list for PBXNativeTarget "Meet Gnomes" */;
+			buildPhases = (
+				FA1B518FDB0C123F3A9D3157 /* [CP] Check Pods Manifest.lock */,
+				B0984AB124B263B700B66B67 /* Sources */,
+				B0984AB224B263B700B66B67 /* Frameworks */,
+				B0984AB324B263B700B66B67 /* Resources */,
+				BA2F53208F0E6F750EB4C11C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meet Gnomes";
+			productName = "Meet Gnomes";
+			productReference = B0984AB524B263B700B66B67 /* Meet Gnomes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0984AAD24B263B700B66B67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = AMPM;
+				TargetAttributes = {
+					B0984AB424B263B700B66B67 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = B0984AB024B263B700B66B67 /* Build configuration list for PBXProject "Meet Gnomes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0984AAC24B263B700B66B67;
+			productRefGroup = B0984AB624B263B700B66B67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0984AB424B263B700B66B67 /* Meet Gnomes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0984AB324B263B700B66B67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0984AC524B263B800B66B67 /* LaunchScreen.storyboard in Resources */,
+				B0984AC224B263B800B66B67 /* Assets.xcassets in Resources */,
+				B0984AC024B263B700B66B67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA2F53208F0E6F750EB4C11C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meet Gnomes/Pods-Meet Gnomes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meet Gnomes/Pods-Meet Gnomes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meet Gnomes/Pods-Meet Gnomes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA1B518FDB0C123F3A9D3157 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meet Gnomes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0984AB124B263B700B66B67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B090870124B2CFB600B55319 /* GnomeDetailsViewController.swift in Sources */,
+				B0984AD224B2644600B66B67 /* HomeModel.swift in Sources */,
+				B0984ABD24B263B700B66B67 /* HomeViewController.swift in Sources */,
+				B0984AB924B263B700B66B67 /* AppDelegate.swift in Sources */,
+				B0984AD424B2648F00B66B67 /* HomeViewModel.swift in Sources */,
+				B0984ABB24B263B700B66B67 /* SceneDelegate.swift in Sources */,
+				B0984AD924B2A7AB00B66B67 /* CellViewHome.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0984ABE24B263B700B66B67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0984ABF24B263B700B66B67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0984AC324B263B800B66B67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0984AC424B263B800B66B67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0984AC724B263B800B66B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0984AC824B263B800B66B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0984ACA24B263B800B66B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9B4BD3AE06FDE8CE9D03D2 /* Pods-Meet Gnomes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meet Gnomes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.chr.kavakTest.Meet-Gnomes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0984ACB24B263B800B66B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6D8D82C4EDC3AD78FE0D92 /* Pods-Meet Gnomes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meet Gnomes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.chr.kavakTest.Meet-Gnomes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0984AB024B263B700B66B67 /* Build configuration list for PBXProject "Meet Gnomes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0984AC724B263B800B66B67 /* Debug */,
+				B0984AC824B263B800B66B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0984AC924B263B800B66B67 /* Build configuration list for PBXNativeTarget "Meet Gnomes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0984ACA24B263B800B66B67 /* Debug */,
+				B0984ACB24B263B800B66B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0984AAD24B263B700B66B67 /* Project object */;
+}
